@@ -1,3 +1,4 @@
+#!/usr/bin/node
 /**
  * Wrapper function for request object that allows it
  * to work with async and await
