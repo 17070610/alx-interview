@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """Island perimeter module"""
 
+
 def island_perimeter(grid):
     """
     Returns the perimeter of the island described in the grid.
@@ -8,7 +9,7 @@ def island_perimeter(grid):
     adjacent land cells reduce the total perimeter.
     """
     perimeter = 0
-    if type(grid) != list:
+    if not isinstance(grid, list):
         return 0
     n = len(grid)
     for i, row in enumerate(grid):
